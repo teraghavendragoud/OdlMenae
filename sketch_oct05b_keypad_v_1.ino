@@ -128,7 +128,7 @@ void keypadEvent(KeypadEvent key) {
         else if (key == '*') {
           current_mode = CANCEL;
         }
-        //  break;
+          break;
 
     } // switch end
 
@@ -285,4 +285,3 @@ int getKeypadInput()
   return  integerValue;
 
 }
-
